@@ -1,0 +1,27 @@
+faye027786@SN-5CG3405C14 MINGW64 ~/Downloads
+$ git clone https://github.com/jgregoirefaye/mcino-Introduction-to-Git-and-GitHub.git
+Cloning into 'mcino-Introduction-to-Git-and-GitHub'...
+remote: Enumerating objects: 35, done.
+remote: Total 35 (delta 0), reused 0 (delta 0), pack-reused 35 (from 1)
+Receiving objects: 100% (35/35), 17.46 KiB | 458.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+faye027786@SN-5CG3405C14 MINGW64 ~/Downloads
+$ cd mcino-Introduction-to-Git-and-GitHub/
+
+faye027786@SN-5CG3405C14 MINGW64 ~/Downloads/mcino-Introduction-to-Git-and-GitHub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+faye027786@SN-5CG3405C14 MINGW64 ~/Downloads/mcino-Introduction-to-Git-and-GitHub (main)
+$ curl -s https://api.github.com/repos/jgregoirefaye/mcino-Introduction-to-Git-and-GitHub | grep -E '"full_name"|"fork"|"parent"'
+  "full_name": "jgregoirefaye/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,

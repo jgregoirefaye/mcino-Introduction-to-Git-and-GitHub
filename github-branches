@@ -1,0 +1,6 @@
+faye027786@SN-5CG3405C14 MINGW64 ~/Downloads/mcino-Introduction-to-Git-and-GitHub (main)
+$ git branch -avv
+  bug-fix-typo        0ceaa64 Fix typo in README
+* main                ccb14ee [origin/main] Add merge branches output
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main ccb14ee Add merge branches output

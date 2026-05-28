@@ -1,0 +1,13 @@
+faye027786@SN-5CG3405C14 MINGW64 ~/Downloads/mcino-Introduction-to-Git-and-GitHub (main)
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8062 | grep -E '"html_url"|"state"|"full_name"'
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/8062",
+  "state": "closed",
+    "html_url": "https://github.com/jgregoirefaye",
+      "html_url": "https://github.com/jgregoirefaye",
+      "full_name": "jgregoirefaye/mcino-Introduction-to-Git-and-GitHub",
+        "html_url": "https://github.com/jgregoirefaye",
+      "html_url": "https://github.com/jgregoirefaye/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/ibm-developer-skills-network",
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "html_url": "https://github.com/ibm-developer-skills-network",
+      "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
